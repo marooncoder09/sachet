@@ -15,9 +15,6 @@ export default function Router() {
         <Route path="/create-bot" component={Checkout} />
         <Route path="/explore-bots" component={ExploreBots} />
         <Route path="/chat/:id" component={ChatPage} />
-
-        
-
       </Switch>
     </BrowserRouter>
   );

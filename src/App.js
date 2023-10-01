@@ -5,8 +5,8 @@ import SideBar from "./components/dashboard/SideBar";
 function App() {
   return (
     <div className="App">
-      <SideBar />
       <Router />
+      <SideBar />
     </div>
   );
 }
