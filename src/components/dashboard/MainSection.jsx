@@ -7,6 +7,7 @@ import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 
+
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
@@ -63,7 +64,7 @@ export default function MainSection() {
         <Grid container justifyContent="center">
           <Grid item xs={12} sm={6} md={4}>
             <div className={classes.container}>
-              <img src="/poe-logo.png" alt="Poe Logo" className={classes.logo} />
+              <img src="/FutureAndAI-logo.png" alt="FutureAndAI Logo" className={classes.logo} />
             </div>
           </Grid>
         </Grid>
@@ -71,7 +72,7 @@ export default function MainSection() {
           <Grid item xs={12} sm={6} md={4}>
             <div className={classes.container}>
               <Typography variant="h4" className={classes.title}>
-                Poe
+                FutureAndAI
               </Typography>
             </div>
           </Grid>

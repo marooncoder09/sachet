@@ -75,12 +75,10 @@ export default function Checkout() {
           {activeStep === steps.length ? (
             <React.Fragment>
               <Typography variant="h5" gutterBottom>
-                Thank you for your order.
+                You have successfully created a bot.
               </Typography>
               <Typography variant="subtitle1">
-                Your order number is #2001539. We have emailed your order
-                confirmation, and will send you an update when your order has
-                shipped.
+                Your bot is now ready to be used. You can now go to the dashboard and start using it.
               </Typography>
             </React.Fragment>
           ) : (
